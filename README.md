@@ -9,8 +9,9 @@ Utilice [Spring Boot](https://spring.io/quickstart), con [Maiven](https://mvnrep
 4. [springdoc-openapi-ui](https://springdoc.org/)
 5. [junit](https://mvnrepository.com/artifact/junit/junit/4.13.2)
 
-### Version de Spring Boot
-v2.7.7
+### Versiones
+- Spring Boot v2.7.7
+- Java 11
 
 ## Clonar el repositorio
 ```
