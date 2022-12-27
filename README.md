@@ -13,7 +13,9 @@ Utilice [Spring Boot](https://spring.io/quickstart), con [Maiven](https://mvnrep
 v2.7.7
 
 ## Clonar el repositorio
+```
 git clone https://github.com/hidalgo27/intercorp.git
+```
 
 ## Si se requiere, recargue Maiven
 Si se usa un IDE como IntelliJ IDEA, click derecho en el archivo pom.xml > Maiven > Reload project
@@ -50,7 +52,7 @@ mvnw spring-boot:run
     - User Name: sa
     - Password:
 - Para hacer las pruebas unitarias con JUnit
-  Ejecute el archivo [MatrixApplicationTests]()
+  Ejecute el archivo [MatrixApplicationTests](https://github.com/hidalgo27/interseguro-matriz-back/blob/master/src/test/java/com/interseguro/matrix/MatrixApplicationTests.java)
 
 ## Estructura
 - caseuse
@@ -63,12 +65,12 @@ mvnw spring-boot:run
 
 ## Algoritmo que rota una matriz NxN
 - Para un adecuado funcionamiento del servicio primero se debe verificar que la matriz sea [cuadrada](https://economipedia.com/definiciones/matriz-cuadrada.html):
-    - Se crea su dependencia en [MatrizDependency]() metodo *matCuadrada* y el algoritmo se implementa en [MatrizImplement]() metodo *matCuadrada*
+    - Se crea su dependencia en [MatrizDependency](https://github.com/hidalgo27/interseguro-matriz-back/blob/master/src/main/java/com/interseguro/matrix/component/MatrizDependency.java) metodo *matCuadrada* y el algoritmo se implementa en [MatrizImplement](https://github.com/hidalgo27/interseguro-matriz-back/blob/master/src/main/java/com/interseguro/matrix/component/MatrizImplement.java) metodo *matCuadrada*
 - Luego rotamos la matriz para eso:
-    - Se crea su dependencia en [MatrizDependency]() metodo *mat* y el algoritmo se implementa en [MatrizImplement]() metodo *mat*
+    - Se crea su dependencia en [MatrizDependency](https://github.com/hidalgo27/interseguro-matriz-back/blob/master/src/main/java/com/interseguro/matrix/component/MatrizDependency.java) metodo *mat* y el algoritmo se implementa en [MatrizImplement](https://github.com/hidalgo27/interseguro-matriz-back/blob/master/src/main/java/com/interseguro/matrix/component/MatrizImplement.java) metodo *mat*
 
 ## Controlador
-- El controlador del servicio: [MatrizController]()
+- El controlador del servicio: [MatrizController](https://github.com/hidalgo27/interseguro-matriz-back/blob/master/src/main/java/com/interseguro/matrix/controller/MatrizController.java)
 
 
 ## Ejemplos

@@ -1,6 +1,6 @@
 package com.interseguro.matrix.component;
 
 public interface MatrizDependency {
-    String mat(int[][] matrix);
+    String ºmat(int[][] matrix);
     Boolean matCuadrada(int[][] matrix);
 }
